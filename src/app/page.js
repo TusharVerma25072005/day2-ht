@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 py-8 px-4">
       <div className="max-w-4xl mx-auto">
-        {/* Progress indicator */}
+        
         <div className="mb-8">
           <div className="flex justify-center space-x-2 mb-4">
             {[0, 1, 2, 3].map((step) => (
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Form containers */}
+        
         <div className="relative">
           <div className={`transform transition-all duration-500 ease-in-out ${
             page !== 0 ? "opacity-0 scale-95 pointer-events-none absolute inset-0" : "opacity-100 scale-100"
@@ -97,7 +97,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Navigation buttons */}
         <div className="mt-8 bg-white rounded-xl shadow-lg border border-gray-100 p-6">
           <div className="flex justify-between items-center">
             <BackDisplayButton 
