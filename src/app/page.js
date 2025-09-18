@@ -119,7 +119,8 @@ export default function Home() {
                 if(page === 3) {
                   console.log({
                     Name, Email, Department, Hostel, RollNo, Pref, MenuReview, preferences
-                  })
+                  });
+                  console.log("Form Submitted")
                 }
                 setPage(page + 1)
               }}
