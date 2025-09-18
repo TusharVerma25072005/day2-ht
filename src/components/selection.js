@@ -110,7 +110,7 @@ export const Selection = ({ pref, preferences, setPreferences }) => {
     const [dinner, setDinner] = useState(dinnerv)
 
     useEffect(() => {
-        if (pref === "veg") {
+        if (pref != "veg") {
             setBreakfast(breakfastnv)
             setLunch(lunchnv)
             setDinner(dinnernv)
