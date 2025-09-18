@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Mess Review form created where it has following functionalities included
 
-## Getting Started
 
-First, run the development server:
+Stage 1 - Personal Details
+Collect details like Name, Roll No, Semester, Department, Hostel Name, and Food Preferences.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Stage 2 - Current Menu Rating
+Display the weekly menu (Mon–Sat) with daily items.
+Allow students to rate each day’s menu on a 5-star scale.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Stage 3 - Vegetarian Menu Selection
+For each meal (Breakfast, Lunch, Snacks, Dinner), show ≥14 vegetarian options.
+Students must select exactly 7 items per meal (with validation).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Stage 4 - Non-Vegetarian Menu Selection
+Same as Stage 3, but with non-veg options.
+Display this stage only if the student’s food preference is non-veg.
 
-## Learn More
+Stage 5 - Review & Summary
+Display a review table with Name, Roll No, and the selected items (meal-wise summary).
 
-To learn more about Next.js, take a look at the following resources:
+Technologies and Libraries used-
+NextJS , TailwindCSS , MUI Component Library , MUI Icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
