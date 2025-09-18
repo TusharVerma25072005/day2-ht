@@ -6,7 +6,7 @@ import { ForwardDisplayButton } from "@/components/buttons";
 import ReviewForm from "@/components/reviewBox";
 import { Selection } from "@/components/selection";
 import { Feedback } from "@/components/feedbackBox";
-import { Alert } from "@mui/material";
+
 
 export default function Home() {
   const [page , setPage] = React.useState(0)
@@ -45,9 +45,16 @@ export default function Home() {
             }} 
             />
           <ForwardDisplayButton  setPage={()=>{
+              if(page >=4)return;
               if(Name == '' || Email=='' || Department == '' || Hostel == '' || RollNo == ''){
                 alert("Enter the full details")
                 return
+              }
+              if(page == 3){
+                console.log({
+                  Name, Email, Department, Hostel, RollNo , Pref , MenuReview , preferences
+                })
+
               }
               setPage(page+1)
             }}
