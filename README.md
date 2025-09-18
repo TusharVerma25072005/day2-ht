@@ -1,5 +1,6 @@
 This is a Mess Review form created where it has following functionalities included
 
+Web application is responsive for both mobile and desktop versions
 
 Stage 1 - Personal Details
 Collect details like Name, Roll No, Semester, Department, Hostel Name, and Food Preferences.

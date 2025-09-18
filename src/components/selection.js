@@ -157,7 +157,7 @@ const MealCategory = ({ title, items, setMeal, meal, handleCheckboxChange }) => 
     return (
         <div className="p-4 border rounded-lg shadow-lg bg-white border-gray-300">
             <h3 className="text-xl font-semibold mb-2">{title}:</h3>
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {items.map((item, index) => (
                     <div key={index} className="flex items-center space-x-2">
                         <FormControlLabel
