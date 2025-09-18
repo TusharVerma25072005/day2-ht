@@ -47,7 +47,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 backdrop-blur-sm">
               <div className="text-center mb-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-2">Personal Details</h2>
-                <p className="text-gray-600">Let's start with your basic information</p>
+                <p className="text-gray-600">Lets start with your basic information</p>
               </div>
               <PersonalDetails  
                 Department={Department} setDepartment={setDepartment} 
